@@ -1,7 +1,7 @@
 $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
 
 // bower:scss
-@import '../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss';
+@import '../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss';
 // endbower
 .grey {
     background: url(http://ufe-japon.org/assets/templates/DeployFiles/images/light-texture.png);
@@ -23,11 +23,31 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
     padding-left: 15px;
     padding-right: 15px;
 }
-
+html,body,.full-height{
+    height: 100%;
+}
 /* Custom page header */
+header, header > .col-md-3{
+    height: 100px;
+}
+.page {
+    margin-top: -100px;
+    padding-top: 100px;
+}
+.left-menu{
+    text-align: right;
+    margin-top: 25px;
+    list-style: none;
+}
+.left-menu li {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.left-menu li a {
+    font-weight: bold;
+}
 .header {
     border-bottom: 1px solid #e5e5e5;
-
     /* Make the masthead heading the same height as the navigation */
     h3 {
         margin-top: 0;

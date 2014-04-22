@@ -1,1 +1,1 @@
-console.log('\'Allo \'Allo!');
+$(".nano").nanoScroller();
